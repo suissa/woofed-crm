@@ -3,7 +3,8 @@
   "private": true,
   "scripts": {
     "build": "yarn install",
-    "heroku-prebuild": "yarn build"
+    "heroku-prebuild": "yarn build",
+    "preinstall": "node preinstall.js"
   },
   "dependencies": {
     "@hotwired/turbo-rails": "^7.0.0-rc.3",
